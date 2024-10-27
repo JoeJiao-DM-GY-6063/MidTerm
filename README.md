@@ -18,4 +18,5 @@ The posters and sketches are in the list on the left, I don't know how to insert
 
 # 20241026
 I created the background image of the wizarding world in photoshop, As well as the snitch design! I exported the wings separately from the body for the png, for post effects (since the body is immobile and the wings are constantly shaking)and I used the wingDirection variable to control the direction of movement of the wings, reversing the direction when the wingOffset exceeds a certain range, to achieve the visual effect of moving up and down (like shaking).
+Next week I will implement the click-move interaction.
 
