@@ -22,13 +22,14 @@ Next week I will implement the click-move interaction.
 
 # 20241102
 Finally done! And had a fun test with my classmates!
-Building on last week's, I've added effects such as blood bars/timers/and click-to-interact/move-on-click.
+Building on last week's, I've added effects such as bloodbar/timers/and click-to-interact/move-on-click.
 I looked up information online and used a ( lerp ) effect rather than teleporting, creating a flight-move effect.
 
 Click Interaction: Using mousePressed(), a click within a certain radius around the Snitch’s current position registers as a capture. Upon capture, the health bar resets, and the Snitch moves to a new random position.
 
-The blood bar decreases with time, this is fast (0.9) and I wanted to increase the difficulty of the game ， blood bar reset after each click.
-The health bar decreases over time, simulating a countdown. If it reaches zero, the noLoop() function stops the animation, and a "Game Over" message is displayed.
-When the time runs out (when the blood bar is 0), a GAMEOVER pops up with a reset game reminder.
+The blood bar decreases with time, this is fast (0.9) I wanted to increase the difficulty of the game hahaha， and bloodbar reset after each click.
+The health bar decreases over time, simulating a countdown. If it reaches zero, the noLoop() function stops the animation,When the time runs out (when the blood bar is 0), a GAMEOVER pops up with a reset game reminder.
+
+PS：Only clicking on the BODY is valid, clicking on the wings is not
 
 
