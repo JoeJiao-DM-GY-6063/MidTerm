@@ -48,8 +48,8 @@ function draw() {
 }
 
 function displayHealthBar() {
-  fill(110, 51, 47);
-  rect(windowWidth / 2, 30, health * 10, 20,50);  // 假设满血时宽度为300px
+  fill(212, 107, 102);
+  rect(windowWidth / 2, 40, health * 10, 20,50);  
 
   // - blood
   health -= healthDecay;
@@ -70,7 +70,7 @@ function displaySnitch() {
 
 function mousePressed() {
   // click snitch
-  if (dist(mouseX, mouseY, snitchX, snitchY) < 30) {  // 检测点击区域半径
+  if (dist(mouseX, mouseY, snitchX, snitchY) < 30) {  // body only
     // restart bloodbar
     health = 100;
 
